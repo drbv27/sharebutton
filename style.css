@@ -1,0 +1,45 @@
+.share-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .share-button i {
+    font-size: 20px;
+  }
+  
+  .share-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: none;
+    z-index: 100;
+  }
+  
+  .share-menu li {
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .share-menu li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .share-menu li a i {
+    font-size: 18px;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+  li{
+    list-style: none;
+  }
